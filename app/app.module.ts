@@ -35,7 +35,7 @@ import { StarComponent} from './shared/star.component';
     ProductFilterPipe,
     StarComponent
     ],
-  providers [ProductDetailGuard]
+  providers: [ProductDetailGuard],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
